@@ -1,0 +1,26 @@
+.navbar {
+  background: black;
+
+  &__title {
+    margin: 0;
+    color: white;
+
+  }
+
+  &__flex {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  &__tab-list {
+    vertical-align: center;
+    padding: 1rem;
+  }
+
+  &__tab-item {
+    padding: 0 1rem;
+    color: white;
+  }
+}

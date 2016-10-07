@@ -13,7 +13,6 @@
 
     // border: 4px solid black;
 
-
     &-text {
       align-self: flex-end;
 
@@ -21,13 +20,13 @@
         font-size: 2rem;
         font-weight: bold;
 
-
       }
+
       &-text {
-
-      }
+        }
 
     }
+
     &-img {
       border: 0.5rem solid $c-black;
     }

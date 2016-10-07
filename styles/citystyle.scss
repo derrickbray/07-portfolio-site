@@ -1,0 +1,19 @@
+.picturebox {
+  margin-top: 5rem;
+
+
+  &__top {
+    display: flex;
+    justify-content: center;
+
+    &-left {
+      width: calc(100% * 1 / 4 - 2rem);
+      margin: 0.5rem;
+    }
+
+    &-right {
+      width: calc(100% * 3 / 4 - 2rem);
+      margin: 0.5rem;
+    }
+  }
+}

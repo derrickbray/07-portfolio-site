@@ -2,18 +2,27 @@
   margin-top: 5rem;
 
 
-  &__top {
+  &__ind {
     display: flex;
+
     justify-content: center;
 
     &-small {
-      width: calc(100% * 1 / 4 - 2rem);
+      width: calc(100% * 1 / 3 - 2rem);
       margin: 0.5rem;
     }
 
     &-large {
-      width: calc(100% * 3 / 4 - 2rem);
+      width: calc(100% * 2 / 3 - 2rem);
       margin: 0.5rem;
     }
   }
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
 }

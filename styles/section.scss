@@ -1,35 +1,31 @@
 .section {
   margin: 0 auto;
+  display: flex;
 
   &__header {
     margin: 3rem;
     text-align: center;
   }
+}
 
-  &__box {
-    display: flex;
-    justify-content: space-between;
-    margin: 5rem 2rem;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
 
-    //  border: 4px solid red;
+  &__item {
+    flex-basis: calc(100% / 2 - 2rem);
+    flex-grow: 1;
+    margin: 1rem;
 
-    &-text {
-      align-self: flex-end;
-      // border: 4px solid blue;
-      margin: 0.5rem;
-
-      &-head {
-        font-size: 2rem;
-        font-weight: bold;
-
+    @media (min-width: 780px) {
+      &--75 {
+        flex-basis: calc(100% * 2 / 3 - 2rem);
       }
-    }
 
-
-
-    &-img {
-      border: 0.2rem solid $c-black;
-      margin: 0.5rem;
+      &--25 {
+        flex-basis: calc(100% * 1 / 3 - 2rem);
+      }
     }
   }
 }

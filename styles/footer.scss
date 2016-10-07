@@ -1,0 +1,31 @@
+.footer {
+  // display: flex;
+  padding: 1rem;
+  background: $c-black;
+
+  & img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    color: $c-white;
+    // border: 5px solid yellow;
+
+    &--icon {
+      justify-content: center;
+      padding: 1rem;
+      width: 5rem;
+      height: 2rem;
+      color: $c-white;
+      // border: 5px solid red;
+
+      & i {
+        height: 4rem;
+        // width: 3rem;
+      }
+    }
+  }
+}

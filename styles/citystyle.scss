@@ -6,12 +6,12 @@
     display: flex;
     justify-content: center;
 
-    &-left {
+    &-small {
       width: calc(100% * 1 / 4 - 2rem);
       margin: 0.5rem;
     }
 
-    &-right {
+    &-large {
       width: calc(100% * 3 / 4 - 2rem);
       margin: 0.5rem;
     }

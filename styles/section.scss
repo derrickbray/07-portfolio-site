@@ -1,0 +1,35 @@
+.section {
+  margin: 0 auto;
+
+  &__header {
+    text-align: center;
+    margin: 3rem;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+
+    // border: 4px solid black;
+
+
+    &-text {
+      align-self: flex-end;
+
+      &-head {
+        font-size: 2rem;
+        font-weight: bold;
+
+
+      }
+      &-text {
+
+      }
+
+    }
+    &-img {
+      border: 0.5rem solid $c-black;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
-$c-blue: #4138fc;
+$c-blue: #2452f7;
 $c-black: #060f4a;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
@@ -9,30 +9,5 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'reset';
 @import 'navbar';
 @import 'hero';
-
-.section {
-  margin: 0 auto;
-
-  &__header {
-    text-align: center;
-    margin: 5rem;
-  }
-
-  &__box {
-    display: flex;
-    justify-content: space-between;
-
-    &-text {
-
-      &-head {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 4rem;
-      }
-
-    }
-    &-img {
-      border: 0.5rem solid $c-black;
-    }
-  }
-}
+@import 'section';
+// @import 'blog';

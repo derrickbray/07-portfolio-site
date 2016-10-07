@@ -3,7 +3,7 @@
 
   &__title {
     margin: 0;
-    color: white;
+    color: $c-white;
 
   }
 
@@ -21,6 +21,8 @@
 
   &__tab-item {
     padding: 0 1rem;
-    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    color: $c-white;
   }
 }

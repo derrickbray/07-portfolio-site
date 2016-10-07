@@ -3,10 +3,10 @@
   justify-content: center;
   flex-direction: column;
   padding: 5rem 0;
-  background: blue;
+  background: $c-blue;
 
   &__txt {
-    color: black;
+    color: $c-black;
   }
 
   &__tag {

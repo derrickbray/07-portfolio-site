@@ -1,5 +1,7 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
+$c-blue: #4138fc;
+$c-black: #060f4a;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
@@ -7,3 +9,17 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'reset';
 @import 'navbar';
 @import 'hero';
+
+.section {
+  margin: 0 auto;
+
+
+  &__box {
+
+
+    &-text {
+
+
+    }
+  }
+}

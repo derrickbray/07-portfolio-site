@@ -1,10 +1,10 @@
 .main__box__individual {
-  width: calc(100% / 2 - 2rem - 2rem);
-  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
-  padding: 1rem;
-  margin: 2rem;
   position: relative;
+  width: calc(100% / 2 - 2rem - 2rem);
+  margin: 2rem;
+  padding: 1rem;
   float: left;
+  box-shadow: 0.2rem 0.2rem 0.4rem $c-shadow;
 
   &-top {
     position: relative;

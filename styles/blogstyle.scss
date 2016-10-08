@@ -1,11 +1,11 @@
 .main__box__individual {
   position: relative;
+  flex-grow: 1;
   width: calc(100% / 2 - 2rem - 2rem);
   margin: 2rem;
   padding: 1rem;
   float: left;
   box-shadow: 0.2rem 0.2rem 0.4rem $c-shadow;
-  flex-grow: 1;
 
   &-top {
     position: relative;

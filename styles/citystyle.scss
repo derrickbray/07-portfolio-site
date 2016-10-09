@@ -3,51 +3,12 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
 
-  &__ind {
-    display: flex;
-    position: relative;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    &-small {
-      display: flex;
-      flex-grow: 1;
-      flex-wrap: wrap;
-      width: calc(100% * 1 / 3 - 2rem);
-      min-width: 15rem;
-      margin: 0.5rem;
-
-      &:hover {
-        &__ind h2 {
-          display: flex;
-        }
-      }
-
-    }
-
-    &-large {
-      display: flex;
-      flex-grow: 1;
-      flex-wrap: wrap;
-      width: calc(100% * 2 / 3 - 2rem);
-      min-width: 15rem;
-      margin: 0.5rem;
-
-      &:hover {
-        &__ind h2 {
-          display: flex;
-        }
-      }
-    }
-
-    & h2 {
-      display: none;
-      position: absolute;
-      bottom: 0;
-      color: $c-white;
-      text-align: center;
-    }
+  & h2 {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    color: $c-white;
+    text-align: center;
   }
 
   .photo {
@@ -57,5 +18,38 @@
     height: 25rem;
     object-fit: cover;
 
-  }
+    }
+}
+
+.picturebox__ind {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &-small {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: calc(100% * 1 / 3 - 2rem);
+    min-width: 15rem;
+    margin: 0.5rem;
+    }
+
+  &-large {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: calc(100% * 2 / 3 - 2rem);
+    min-width: 15rem;
+    margin: 0.5rem;
+
+    &:hover {
+      &__ind h2 {
+        display: flex;
+      }
+    }
+    }
+
 }

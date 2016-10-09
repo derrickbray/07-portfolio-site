@@ -1,10 +1,19 @@
 .main {
   display: flex;
+
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 20rem;
+  }
 }
+
 .main__box__individual {
   position: relative;
   flex-grow: 1;
+  flex-wrap: wrap;
   width: calc(100% / 2 - 2rem - 2rem);
+  min-width: 15rem;
   margin: 2rem;
   padding: 1rem;
   float: left;

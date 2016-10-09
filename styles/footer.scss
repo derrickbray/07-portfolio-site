@@ -1,8 +1,8 @@
 .footer {
   // display: flex;
+  flex-grow: 1;
   padding: 1rem;
   background: $c-black;
-  flex-grow: 1;
 
   & img {
     width: 2rem;

@@ -1,6 +1,7 @@
 .section {
   display: flex;
   margin: 0 auto;
+  padding: 1rem;
 
   &__header {
     margin: 3rem;
@@ -11,7 +12,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: -1rem;
+  margin: 2rem -1rem;
 
   &__item {
     flex-basis: calc(100% / 2 - 2rem);
@@ -25,7 +26,7 @@
 
     @media(max-width: 780px) {
       .row__flip {
-        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
         background: green;
       }
 

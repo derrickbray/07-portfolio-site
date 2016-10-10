@@ -23,7 +23,6 @@
     &--25 {
       border: 0.1rem solid $c-black;
     }
-
     @media(max-width: 780px) {
       .row__flip {
         flex-direction: column-reverse;

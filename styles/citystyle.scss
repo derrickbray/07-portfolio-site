@@ -41,11 +41,12 @@
     .picturebox__ind__photo-text {
       display: flex;
       filter: grayscale(100%);
+      color: green;
     }
   }
 
   &-text {
-    display: none;
+    // display: none;
     position: absolute;
     bottom: 0;
     color: $c-white;

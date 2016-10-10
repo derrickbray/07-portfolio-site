@@ -23,9 +23,10 @@
       border: 0.1rem solid $c-black;
     }
 
-    @media (min-width: 780px) {
-      &.row__flip {
-        flex-direction: column-reverse;
+    @media(max-width: 780px) {
+      .row__flip {
+        flex-wrap: wrap-reverse;
+        background: green;
       }
 
       &--75 {

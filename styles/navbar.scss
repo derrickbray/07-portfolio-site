@@ -1,4 +1,7 @@
 .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
   background: $c-black;
 
   &__title {
@@ -10,13 +13,15 @@
   }
 
   &__flex {
-
     display: flex;
-    align-content: center;
+    flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
   }
 
   &__tab-list {
+    display: flex;
+    flex-wrap: wrap;
     padding: 1rem;
     vertical-align: center;
   }

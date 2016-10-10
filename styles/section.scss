@@ -5,6 +5,7 @@
 
   &__header {
     margin: 3rem;
+
     text-align: center;
   }
 }
@@ -24,10 +25,9 @@
       border: 0.1rem solid $c-black;
     }
   }
-  @media (max-width: 780px) {
+  @media (max-width: 580px) {
     &__flip {
       flex-direction: column-reverse;
-      background: green;
     }
 
     &__item--75 {

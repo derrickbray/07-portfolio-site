@@ -1,7 +1,4 @@
 .navbar {
-  display: flex;
-  // flex-grow: 1;
-  // flex-wrap: wrap;
   background: $c-black;
 
   &__flex {
@@ -24,12 +21,12 @@
   &__tab-list {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
+    margin: 1rem -1rem;
 
   }
 
   &__tab-item {
-    padding: 0 1rem;
+    margin: 0 1rem;
     color: $c-white;
     font-weight: lighter;
     text-decoration: none;

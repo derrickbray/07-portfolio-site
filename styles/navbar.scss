@@ -13,6 +13,8 @@
   }
 
   &__title {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     color: $c-white;
     font-family: sans-serif;
@@ -23,7 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
-    vertical-align: center;
+
   }
 
   &__tab-item {

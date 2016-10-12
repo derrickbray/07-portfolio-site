@@ -10,15 +10,16 @@
 
   &__content {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0 25%;
     color: $c-white;
 
     &--icon {
-      justify-content: center;
-      width: 5rem;
+      // width: 5rem;
       height: 2rem;
-      padding: 1rem;
+      padding: 0;
       color: $c-white;
+      vertical-align: middle;
 
       & i {
         height: 4rem;

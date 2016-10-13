@@ -2,10 +2,11 @@
   flex-grow: 1;
   padding: 1rem;
   background: $c-black;
+  object-fit: cover;
 
   & img {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   &__content {
@@ -13,18 +14,16 @@
     justify-content: space-around;
     padding: 0 25%;
     color: $c-white;
-    object-fit: contain;
 
     &--icon {
       display: block;
-      height: 2rem;
       padding: 0;
       color: $c-white;
+      text-decoration: none;
       vertical-align: middle;
 
       & i {
         display: block;
-        height: 4rem;
       }
     }
   }

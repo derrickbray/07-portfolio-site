@@ -13,15 +13,17 @@
     justify-content: space-around;
     padding: 0 25%;
     color: $c-white;
+    object-fit: contain;
 
     &--icon {
-      // width: 5rem;
+      display: block;
       height: 2rem;
       padding: 0;
       color: $c-white;
       vertical-align: middle;
 
       & i {
+        display: block;
         height: 4rem;
       }
     }

@@ -35,11 +35,11 @@
 
 .row {
   display: flex;
+  flex-basis: 100%;
   flex-wrap: wrap;
   margin: 2rem -1rem;
 
   &__item {
-    flex-basis: calc(100% / 2 - 2rem);
     flex-grow: 1;
     min-width: 15rem;
     margin: 1rem;
@@ -51,10 +51,15 @@
     }
 
     &--25 {
+      width: calc(100% * 1 / 4 - 3.5rem);
       border: 0.1rem solid $c-black;
     }
+    &--75 {
+      width: calc(100% * 3 / 4 - 3.5rem);
+
+    }
   }
-  @media (max-width: 580px) {
+  @media (max-width: 480px) {
     &__flip {
       flex-direction: column-reverse;
     }

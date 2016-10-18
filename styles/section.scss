@@ -1,3 +1,27 @@
+// In styles/section.scss:
+//
+// > +  &__item {
+// +    flex-basis: calc(100% / 2 - 2rem);
+// +    flex-grow: 1;
+// +    min-width: 15rem;
+// +    margin: 1rem;
+// +
+// +    &--25 {
+// +      border: 0.1rem solid $c-black;
+// +    }
+// +  }
+// +  @media (max-width: 580px) {
+// +    &__flip {
+// +      flex-direction: column-reverse;
+// +    }
+// +
+// +    &__item--75 {
+// These flex-basis should probably be set when the screen is at least larger than tablet to get the 75/25 effect on desktop screens.
+//
+// Right now you are setting this when 580px and below which is on mobile and since the rows at that point are in columns, the flex-basis isn't doing much.
+//
+
+
 .section {
   display: flex;
   margin: 0 auto;
@@ -21,8 +45,8 @@
     margin: 1rem;
 
     &-pic {
-      height: 100%;
       width: 100%;
+      height: 100%;
       object-fit: cover;
     }
 

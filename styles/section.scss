@@ -61,15 +61,20 @@
   }
   @media (max-width: 480px) {
     &__flip {
+      flex-basis: 100%;
       flex-direction: column-reverse;
+      flex-grow: 1;
+      margin: 0;
     }
 
     &__item--75 {
-      flex-basis: calc(100% * 2 / 3 - 2rem);
+      // flex-basis: 100%;
+      // flex-grow: 1;
     }
 
     &__item--25 {
-      flex-basis: calc(100% * 1 / 3 - 2rem);
+      // flex-basis: calc(100% * 1 / 3 - 2rem);
+      // flex-grow: 1;
     }
   }
 }

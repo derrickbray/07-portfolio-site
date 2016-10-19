@@ -21,7 +21,6 @@
 // Right now you are setting this when 580px and below which is on mobile and since the rows at that point are in columns, the flex-basis isn't doing much.
 //
 
-
 .section {
   display: flex;
   margin: 0 auto;
@@ -54,6 +53,7 @@
       flex-basis: calc(100% * 1 / 4 - 3.5rem);
       border: 0.1rem solid $c-black;
     }
+
     &--75 {
       flex-basis: calc(100% * 3 / 4 - 3.5rem);
 

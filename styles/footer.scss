@@ -1,0 +1,30 @@
+.footer {
+  flex-grow: 1;
+  padding: 1rem;
+  background: $c-black;
+  object-fit: cover;
+
+  & img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 25%;
+    color: $c-white;
+
+    &--icon {
+      display: block;
+      padding: 0;
+      color: $c-white;
+      text-decoration: none;
+      vertical-align: middle;
+
+      & i {
+        display: block;
+      }
+    }
+  }
+}

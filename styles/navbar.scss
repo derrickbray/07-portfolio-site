@@ -1,0 +1,36 @@
+.navbar {
+  margin: 0;
+  padding: 1rem;
+  background: $c-black;
+
+  &__flex {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__title {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    color: $c-white;
+    // font-family: sans-serif;
+    font-weight: bolder;
+  }
+
+  &__tab-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem -1rem;
+
+  }
+
+  &__tab-item {
+    margin: 0 1rem;
+    color: $c-white;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 20rem;
+    margin: 2rem -2rem;
+  }
+}
+
+.main__box__individual {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  width: calc(100% / 2 - 4rem);
+  min-width: 15rem;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem $c-shadow;
+
+  &-top {
+    position: relative;
+    margin: -1rem -1rem 1rem;
+    background: $c-red;
+    text-align: left;
+  }
+
+  &-title {
+    display: inline-block;
+    padding-left: 1rem;
+    align: left;
+  }
+}
+
+.btn {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin: 0;
+  padding: 1rem;
+  transform: translate(-50%, 50%);
+  border: 0;
+  background: $c-black;
+  color: $c-white;
+}

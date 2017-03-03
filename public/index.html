@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>07 Portfolio Site</title>
   <link rel="stylesheet" href="/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 </head>
+
 <body>
-hey
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar__flex">
+        <div class="navbar__title">
+          <p>Derrick Bray</p>
+        </div>
+        <div class="navbar__tab-list">
+          <a href="index.html" class="navbar__tab-item">Portfolio</a>
+          <a href="blog.html" class="navbar__tab-item">Blog</a>
+          <a href="city.html" class="navbar__tab-item">City</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="container">
+      <h1 class="hero__txt">Student Developer at The IronYard.</h1>
+      <h3 class="hero__tag">Building Software</h3>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <h1 class="section__header">My Projects</h1>
+      <div class="row">
+        <div class="row__item row__item--75">
+          <h2 class="row-item__title">Mock Surf Shop</h2>
+          <p class="row-item__content">
+            This site includes a large background image with side by side articles. One for content and the other is an ad sidebar. The bottom has styled image links for easy navigation. (stuff and things stuff and things stuff and things stuff and things stuff and
+            things )
+          </p>
+        </div>
+        <div class="row__item row__item--25">
+          <img class="row__item-pic" src="img/surf&paddle.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="row row__flip">
+        <div class="row__item row__item--25">
+          <img class="row__item-pic" src="img/tshirt.jpeg" alt="" />
+        </div>
+        <div class="row__item row__item--75">
+          <h2 class="row-item__title">T-Shirt Order Page</h2>
+          <p class="row-item__content">
+            This page has a expanding button window. It's fully responsive at any size. On a smaller screen size the box changes from a vertical alignment to a horizontal one. The expandable menu also switches from horizonal at larger sizes to vertical on a phone.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row__item row__item--75">
+          <h2 class="row-item__title">Day One Project</h2>
+          <p class="row-item__content">
+            This was our first day's assignment. Our instructor created a portfolio site and then broke it. A seemingly easy debugging project was a bit overwhelming the first night.
+          </p>
+        </div>
+        <div class="row__item row__item--25">
+          <img class="row__item-pic" src="img/intro.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer__content">
+      <a class="footer__content--icon" href="https://www.facebook.com/derrick.bray.9" class="media"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+      <a class="footer__content--icon" href="https://twitter.com/derrickbray" class="media"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+      <a class="footer__content--icon" href=""><img src="img/logo.svg" alt="" /></a>
+      <a class="footer__content--icon" href="https://github.com/derrickbray" class="media"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+      <a class="footer__content--icon" href="https://www.linkedin.com/in/derrick-bray-7a2b26b1" class="media"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    </div>
+  </div>
 </body>
+
 </html>
